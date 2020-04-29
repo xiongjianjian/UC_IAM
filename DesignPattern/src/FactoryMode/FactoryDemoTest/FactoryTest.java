@@ -9,6 +9,7 @@ import FactoryMode.FactoryInterface.Shape;
  */
 public class FactoryTest {
     public static void main(String[] args) {
+        //工厂
         Factory fac=new Factory();
         Shape triangle= (Shape) fac.CreateShape("Triangle");
         triangle.configure();
